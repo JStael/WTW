@@ -1,8 +1,8 @@
 import React from 'react';
-import { View } from 'react-native';
+import { AppRoutes } from './routes';
 
 function App(): JSX.Element {
-  return <View></View>;
+  return <AppRoutes />;
 }
 
 export default App;
