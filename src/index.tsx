@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View } from 'react-native';
 
 function App(): JSX.Element {
-  return <Text>Olá Mundo</Text>;
+  return <View></View>;
 }
 
 export default App;

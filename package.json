@@ -20,6 +20,7 @@
     "react-native-screens": "^3.20.0",
     "react-native-select-dropdown": "^3.3.2",
     "react-native-svg": "^13.8.0",
+    "react-native-vector-icons": "^9.2.0",
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@tsconfig/react-native": "^2.0.3",
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.28",
+    "@types/react-native-vector-icons": "^6.4.13",
     "@types/react-test-renderer": "^18.0.0",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
