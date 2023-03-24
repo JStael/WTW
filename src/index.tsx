@@ -1,8 +1,21 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { AppRoutes } from './routes';
+import { colors, typography, spacing } from './theme';
+import { ThemeType } from './utils/types/styled';
 
-function App(): JSX.Element {
-  return <AppRoutes />;
-}
+const theme: ThemeType = {
+  ...colors,
+  ...typography,
+  ...spacing,
+};
+
+const App = (): JSX.Element => {
+  return (
+    <ThemeProvider theme={theme}>
+      <AppRoutes />
+    </ThemeProvider>
+  );
+};
 
 export default App;
