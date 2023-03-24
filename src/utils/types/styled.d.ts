@@ -2,7 +2,6 @@ import 'styled-components';
 
 declare type Colors = {
   primary: string;
-  primaryHover: string;
   background: string;
   text: string;
   success: string;
