@@ -8,12 +8,17 @@ declare type Colors = {
   danger: string;
 };
 
+type SubTypography = {
+  fontSize: string;
+  lineHeight: string;
+};
+
 declare type Typography = {
-  title: string;
-  subtitle: string;
-  text: string;
-  caption: string;
-  description: string;
+  title: SubTypography;
+  subtitle: SubTypography;
+  text: SubTypography;
+  caption: SubTypography;
+  description: SubTypography;
 };
 
 declare type Spacing = {
