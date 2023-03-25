@@ -6,6 +6,12 @@ const Stack = createNativeStackNavigator();
 
 export const OnboardingStack = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+    <Stack.Screen
+      name="Onboarding"
+      component={OnboardingScreen}
+      options={{
+        headerShown: false,
+      }}
+    />
   </Stack.Navigator>
 );
